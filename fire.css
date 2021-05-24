@@ -1,1 +1,164 @@
 
+
+/*color*/
+
+.fi-rice {
+  color: white;
+}
+.fi-dark {
+  color: black;
+}
+.fi-grass {
+  color: green;
+}
+.fi-blood {
+  color: red;
+}
+.fi-sky {
+  color: royalblue;
+}
+.fi-yellow {
+  color: yellow;
+}
+.fi-gray {
+  color: gray;
+}
+.fi-fire {
+  color: orangered;
+}
+
+
+/*Background-color*/
+
+
+.fi-rice-bg {
+  background-color: white;
+}
+.fi-dark-bg {
+  background-color: black;
+}
+.fi-grass-bg {
+  background-color: green;
+}
+.fi-blood-bg {
+  background-color: red;
+}
+.fi-sky-bg {
+  background-color: royalblue;
+}
+.fi-yellow-bg {
+  background-color: yellow;
+}
+.fi-gray-bg {
+  background-color: gray;
+}
+.fi-fire-bg {
+  background-color: orangered;
+}
+
+
+/*font-size*/
+
+
+.fi-n {
+  font-size: 5px;
+}
+.fi-sm {
+  font-size: 12px;
+}
+.fi-m {
+  font-size: 18px;
+}
+.fi-l {
+  font-size: 26px;
+}
+.fi-xl {
+  font-size: 32px;
+}
+
+
+/*border*/
+
+.fi-border-round {
+  border: 2px solid orangered;
+  border-radius: 12px;
+}
+.fi-border-btm {
+  border-bottom: 2px solid orangered;
+}
+.fi-border {
+  border: 2px solid orangered;
+}
+.fi-border-left {
+  border-left: 5px solid orangered;
+}
+
+
+/*container*/ 
+
+.fi-container {
+  margin: 15px;
+}
+.fi-container-fluid {
+  margin: 10px;
+}
+ 
+ 
+ /*Alert*/
+ 
+ .fi-alert-rice {
+      background-color: white;
+      color: black;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid white;
+ }
+ .fi-alert-dark {
+   background-color: black;
+   color: white;
+   padding: 20px;
+   border-radius: 8px;
+   border: 1px solid black;
+ }
+ .fi-alert-grass {
+      background-color: #b3e6cc  ;
+      color: green;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid green;
+ }
+ .fi-alert-blood {
+      background-color: #ffad99;
+      color: red;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid red;
+ }
+ .fi-alert-sky {
+      background-color: #80bfff ;
+      color: royalblue;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid royalblue;
+ }
+ .fi-alert-yellow {
+   background-color: #ffffcc;
+   color: black;
+   padding: 20px;
+   border-radius: 8px;
+   border: 1px solid yellow;
+ }
+ .fi-alert-gray {
+   background-color: #cccccc;
+   color: #4d4d4d;
+   padding: 20px;
+   border-radius: 8px;
+   border: 1px solid gray;
+ }
+ .fi-alert-fire {
+   background-color: #ffc7b5;
+   color: orangered;
+   padding: 20px;
+   border-radius: 8px;
+   border: 1px solid orangered;
+ }
