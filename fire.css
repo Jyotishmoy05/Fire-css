@@ -164,3 +164,43 @@ body {
    border-radius: 8px;
    border: 1px solid orangered;
  }
+
+
+/*Padding*/
+
+.fi-pad-l {
+  padding: 10px;
+}
+.fi-pad-xl {
+  padding: 25px;
+}
+.fi-pad-xxl {
+  padding: 35px;
+}
+
+
+
+/*Text decorations*/
+
+.fi-decoration-ol {
+  text-decoration: overline;
+}
+.fi-decoratiin-lt {
+  text-decoration: line-through;
+}
+.fi-decoration-ul {
+  text-decoration: underline;
+}
+
+
+/*Text-transformation*/ 
+
+.fi-transform-uc {
+  text-transform: uppercase;
+}
+.fi-transform-lc {
+  text-transform: lowercase;
+}
+.fi-transform-ct {
+  text-transform: capitalize;
+}
