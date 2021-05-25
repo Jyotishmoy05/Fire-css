@@ -204,3 +204,103 @@ body {
 .fi-transform-ct {
   text-transform: capitalize;
 }
+
+
+/*Fonts*/
+
+.fi-font-mono {
+  font-family: monospace;
+}
+.fi-font-cursive {
+  font-family: cursive;
+}
+.fi-font-fantasy {
+  font-family: fantasy;
+}
+.fi-font-sans {
+  font-family: sans-serif;
+}
+.fi-font-serif {
+  font-family: serif;
+}
+
+
+/*List style */
+
+
+ul.fi-ul-circle {
+  list-style-type: circle;
+}
+ul.fi-ul-square {
+  list-style-type: square;
+}
+ol.fi-ol-roman {
+  list-style-type: upper-roman;
+}
+ol.fi-ol-alpha {
+  list-style-type: lower-alpha;
+}
+
+
+/*grid ststem */
+
+.fi-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  
+}
+
+.fi-col {
+  background-color: #f2f2f2;
+  border-right: 2px solid #cccccc;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+}
+
+
+/*image*/
+
+.fi-img-thumb {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 100%;
+}
+
+.fi-img-thumb:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.fi-img-circle {
+  border-radius: 50%;
+}
+.fi-img-round {
+  border-radius: 10%;
+}
+
+
+/* Size*/
+
+.fi-size-n {
+  width: 15%;
+}
+.fi-size-sm {
+  width: 30%;
+}
+.fi-size-m {
+  width: 50%;
+}
+.fi-size-l {
+  width: 70%;
+}
+.fi-size-xl {
+  width: 80%;
+}
+.fi-size-xxl {
+  width: 100%;
+}
