@@ -11,7 +11,7 @@ body {
   color: black;
 }
 .fi-grass {
-  color: green;
+  color: #00ff00;
 }
 .fi-blood {
   color: red;
@@ -40,7 +40,7 @@ body {
   background-color: black;
 }
 .fi-grass-bg {
-  background-color: green;
+  background-color: #00ff00;
 }
 .fi-blood-bg {
   background-color: red;
@@ -304,3 +304,35 @@ ol.fi-ol-alpha {
 .fi-size-xxl {
   width: 100%;
 }
+
+
+
+/*Table*/
+
+
+
+
+.fi-table,td,th {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.fi-table,th {
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+}
+
+.fi-table-stripped,th,td {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+
+
+
