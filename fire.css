@@ -187,7 +187,7 @@ body {
   background-color: #fff;
   border-color: #ff571a;
   outline: 0;
-  box-shadow: 0 0 0 2px rgb(255, 87, 26);
+  box-shadow: 0 0 0 2px rgb(255, 153, 153);
 }
 .fi-form::-webkit-date-and-time-value {
   height: 1.5em;
@@ -1054,4 +1054,160 @@ body {
 .fi-progress-bar-striped {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem;
+}
+
+
+
+
+/*badge*/
+
+.fi-badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.fi-badge:empty {
+  display: none;
+}
+
+
+
+/*navb bar*/
+
+
+.fi-nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.fi-nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fi-nav-link {
+    transition: none;
+  }
+}
+.fi-nav-link:hover, .fi-nav-link:focus {
+  color: #0a58ca;
+}
+.fi-nav-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+
+/* flex */
+
+.fi-flex {
+  display: flex !important;
+}
+.fi-inline-flex {
+  display: inline-flex !important;
+}
+.fi-flex-column {
+  flex-direction: column !important;
+}
+.fi-flex-row {
+  flex-direction: row !important;
+}
+
+
+
+
+/*Shadow*/
+
+
+.fi-card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.fi-card-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.fi-card-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.fi-card-none {
+  box-shadow: none !important;
+}
+
+
+
+
+/*border*/
+
+.fi-border {
+  border: 1px solid #dee2e6 !important;
+  padding: 5px;
+}
+.fi-border-primary {
+  border-color: #0d6efd !important;
+}
+
+.fi-border-secondary {
+  border-color: #6c757d !important;
+}
+
+.fi-border-success {
+  border-color: #198754 !important;
+}
+
+.fi-border-info {
+  border-color: #0dcaf0 !important;
+}
+
+.fi-border-warning {
+  border-color: #ffc107 !important;
+}
+
+.fi-border-danger {
+  border-color: #dc3545 !important;
+}
+
+.fi-border-light {
+  border-color: #f8f9fa !important;
+}
+
+.fi-border-dark {
+  border-color: #212529 !important;
+}
+
+.fi-border-white {
+  border-color: #fff !important;
+}
+
+
+
+/*float*/
+
+.fi-left {
+  float: left !important;
+}
+
+.fi-right {
+  float: right !important;
+}
+
+.fi-none {
+  float: none !important;
 }
