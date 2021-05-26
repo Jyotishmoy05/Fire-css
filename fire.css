@@ -984,3 +984,27 @@ body {
     max-width: 1320px;
   }
 }
+
+
+/*position */
+
+.fi-position-static {
+  position: static !important;
+}
+
+.fi-position-relative {
+  position: relative !important;
+}
+
+.fi-position-absolute {
+  position: absolute !important;
+}
+
+.fi-position-fixed {
+  position: fixed !important;
+}
+
+.fi-position-sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
