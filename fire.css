@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: var(--fi-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -144,3 +144,111 @@ body {
     background-color: #212529;
   }
  
+ 
+ 
+ 
+ 
+
+
+/*forms */
+
+
+
+.fi-form {
+  display: block;
+  
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fi-form {
+    transition: none;
+  }
+}
+.fi-form[type=file] {
+  overflow: hidden;
+}
+.fi-form[type=file]:not(:disabled):not([readonly]) {
+  cursor: pointer;
+}
+.fi-form:focus {
+  color: black;
+  background-color: #fff;
+  border-color: #ff571a;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgb(255, 87, 26);
+}
+.fi-form::-webkit-date-and-time-value {
+  height: 1.5em;
+}
+.fi-form::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.fi-form::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.fi-form:disabled, .fi-form[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+.fi-form::file-selector-button {
+  padding: 0.375rem 0.75rem;
+  margin: -0.375rem -0.75rem;
+  -webkit-margin-end: 0.75rem;
+  margin-inline-end: 0.75rem;
+  color: #212529;
+  background-color: #e9ecef;
+  pointer-events: none;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-inline-end-width: 1px;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fi-form::file-selector-button {
+    transition: none;
+  }
+}
+.fi-form:hover:not(:disabled):not([readonly])::file-selector-button {
+  background-color: #dde0e3;
+}
+.fi-form::-webkit-file-upload-button {
+  padding: 0.375rem 0.75rem;
+  margin: -0.375rem -0.75rem;
+  -webkit-margin-end: 0.75rem;
+  margin-inline-end: 0.75rem;
+  color: #212529;
+  background-color: #e9ecef;
+  pointer-events: none;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-inline-end-width: 1px;
+  border-radius: 0;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fi-form::-webkit-file-upload-button {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+.fi-form:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+  background-color: green;
+}
