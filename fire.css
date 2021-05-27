@@ -953,8 +953,8 @@ body {
 .fi-container-md,
 .fi-container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--fi-gutter-x, 0.75rem);
+  padding-left: var(--fi-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -1211,3 +1211,195 @@ body {
 .fi-none {
   float: none !important;
 }
+
+
+
+
+/*front-size*/
+
+.fi-fs-1 {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+
+.fi-fs-2 {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+
+.fi-fs-3 {
+  font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+.fi-fs-4 {
+  font-size: calc(1.275rem + 0.3vw) !important;
+}
+
+.fi-fs-5 {
+  font-size: 1.25rem !important;
+}
+
+.fi-fs-6 {
+  font-size: 1rem !important;
+}
+
+
+
+/*text-decoration */
+
+.fi-text-decoration-none {
+  text-decoration: none !important;
+}
+
+.fi-text-decoration-underline {
+  text-decoration: underline !important;
+}
+
+.fi-text-decoration-line-through {
+  text-decoration: line-through !important;
+}
+
+
+
+
+/*rows and column */
+
+
+.fi-row {
+  --fi-gutter-x: 1.5rem;
+  --fi-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--fi-gutter-y) * -1);
+  margin-right: calc(var(--fi-gutter-x) / -2);
+  margin-left: calc(var(--fi-gutter-x) / -2);
+}
+
+.fi-row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--fi-gutter-x) / 2);
+  padding-left: calc(var(--fi-gutter-x) / 2);
+  margin-top: var(--fi-gutter-y);
+}
+
+.fi-col {
+  flex: 1 0 0%;
+}
+.fi-col-auto {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.fi-col-1 {
+  flex: 0 0 auto;
+  width: 8.3333333333%;
+}
+
+.fi-col-2 {
+  flex: 0 0 auto;
+  width: 16.6666666667%;
+}
+
+.fi-col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.fi-col-4 {
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+}
+
+.fi-col-5 {
+  flex: 0 0 auto;
+  width: 41.6666666667%;
+}
+
+.fi-col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.fi-col-7 {
+  flex: 0 0 auto;
+  width: 58.3333333333%;
+}
+
+.fi-col-8 {
+  flex: 0 0 auto;
+  width: 66.6666666667%;
+}
+
+.fi-col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.fi-col-10 {
+  flex: 0 0 auto;
+  width: 83.3333333333%;
+}
+
+.fi-col-11 {
+  flex: 0 0 auto;
+  width: 91.6666666667%;
+}
+
+.fi-col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+
+
+/*button group */
+
+
+.fi-btn-group,
+.fi-btn-group-vertical {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.fi-btn-group>.btn,
+.fi-btn-group-vertical>.btn {
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.fi-btn-group>.btn-check:checked+.btn,
+.fi-btn-group>.btn-check:focus+.btn,
+.fi-btn-group>.btn:hover,
+.fi-btn-group>.btn:focus,
+.fi-btn-group>.btn:active,
+.fi-btn-group>.btn.active,
+.fi-btn-group-vertical>.btn-check:checked+.btn,
+.fi-btn-group-vertical>.btn-check:focus+.btn,
+.fi-btn-group-vertical>.btn:hover,
+.fi-btn-group-vertical>.btn:focus,
+.fi-btn-group-vertical>.btn:active,
+.fi-btn-group-vertical>.btn.active {
+  z-index: 1;
+}
+
+
+
+
+/*table*/
+
+ 
+.fi-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.fi-table,th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+
