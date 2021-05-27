@@ -1093,9 +1093,8 @@ body {
 .fi-nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0d6efd;
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,  border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .fi-nav-link {
@@ -1403,3 +1402,19 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 
 
+/*padding*/
+.fi-padding-0 {
+  padding: 0px;
+}
+.fi-padding-1 {
+  padding: 25px;
+}
+.fi-padding-2 {
+  padding: 15px;
+}
+.fi-padding-3 {
+  padding: 10px;
+}
+.fi-padding-4 {
+  padding: 5px;
+}
