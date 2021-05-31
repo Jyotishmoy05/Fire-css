@@ -1,0 +1,22 @@
+body {
+ 
+  background-color: #a366ff;
+
+}
+.nav {
+  background-color:  #ff4d4d;
+  
+}
+#content {
+  background-color: #a366ff;
+  color: white;
+  
+  background-size: cover;
+}
+.logo {
+  width: 50vh;
+}
+
+ #body {
+   background-color: #a366ff;
+ }
