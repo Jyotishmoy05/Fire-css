@@ -19,6 +19,28 @@
 
 <body id="body">
 
+
+<script>
+  function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select(); 
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+
+
+
+
+
 <div id="content">
   
   
@@ -123,8 +145,52 @@
   <p>
     Package managed installs don’t include documentation or our full build scripts. You can also use our npm template repo to quickly generate a Bootstrap project via npm.
   </p>
-  <button class="fi-btn fi-btn-outline-primary">Install</button>
+  
+  
+  
+  <!-- The text field -->
+<input class="fi-form"value="  https://cdn.jsdelivr.net/gh/Jyotishmoy05/Fire-css@main/fire.css " id="myInput">
+  
+
+<!-- The button used to copy the text -->
+<button onclick="myFunction()" class="fi-btn fi-btn-outline-primary">Copy CDN</button>
+  
 </div>
+
+
+<br><br>
+
+<div class=" fi-container justify-content-start" id="border">
+  
+  
+  <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Code</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Output</button>
+    </li>
+    
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      
+      
+      
+    </div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  <h3>Forms</h3>
+
+</div>
+
 
 
 
