@@ -1,22 +1,45 @@
 body {
  
-  background-color: #a366ff;
+  background-color: #ff7c4d;
 
 }
 .nav {
-  background-color:  #ff4d4d;
+  background-color:  #ff7c4d;
   
 }
 #content {
-  background-color: #a366ff;
+  background-color: #ff7c4d;
   color: white;
   
   background-size: cover;
 }
 .logo {
-  width: 50vh;
+  width: 50%;
+  float: left;
+  
 }
 
  #body {
-   background-color: #a366ff;
+   background-color: #ff7c4d;
+ }
+ @media only screen and (max-width: 600px) {
+   .logo {
+     width: 50vh;
+     float: none;
+   }
+   .hide {
+     display: none;
+   }
+   .logo1 {
+     top: 9px;
+     position: relative;
+   }
+ }
+ .fa-nav-link {
+   text-decoration: none;
+ }
+ .logo1 {
+   width: 8%;
+   height: 8%;
+   
  }
