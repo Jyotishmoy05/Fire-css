@@ -160,36 +160,57 @@
 
 <br><br>
 
-<div class=" fi-container justify-content-start" id="border">
+<!--tabs-->
+
+<div  class="fi-container"id="border">
+
+<ul class="fi-card nav nav-pills mb-3 fi-white fi-red-bg" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active fi-btn" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Output</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link fi-btn " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Code</button>
+  </li>
+ 
+</ul>
+
+<!--tab profile-->
+
+
+<div class="tab-content fi-card fi-white-bg" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  
+  <!--writecontent-->
+  
+ <div>
+    <span>Name</span>
+        <input placeholder="Name" class="fi-form">
+    <span>Email</span>
+        <input placeholder="Email" type="email" class="fi-form">
+    <span>Password</span>
+       <input placeholder="Password" type="password" class="fi-form">
+       <br>
+    <button class="fi-btn fi-btn-outline-primary">Submit</button> 
+ </div>
   
   
-  <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Code</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Output</button>
-    </li>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
     
-  </ul>
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-      
-      
-      
-    </div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-      
-      
-      
-    </div>
+    <!--write content-->
+    
+    
   </div>
   
-  
-  <h3>Forms</h3>
+</div>
+
+
+
+
 
 </div>
+
+
 
 
 

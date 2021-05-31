@@ -31,7 +31,16 @@ body {
      top: 9px;
      position: relative;
    }
+   #border{
+     width: 80%;
+     height: 60px;
+     background-color: orangered;
+     border-radius: 30px;
+     color: white;
+     padding: 20px;
+   }
  }
+ 
  .fa-nav-link {
    text-decoration: none;
  }
@@ -52,6 +61,34 @@ body {
    background-color: orangered;
    border-radius: 30px;
    color: white;
-   padding: 10px;
+   padding: 20px;
   
  }
+ #pills-profile {
+   border-radius: 20px;
+   padding: 20px;
+ }
+  @media only screen and (max-width: 600px) {
+    #border {
+      width: 90%;
+      height: 80vh;
+      background-color: orangered;
+      border-radius: 30px;
+      color: white;
+      padding: 20px;
+    }
+  }
+  code {
+    font-family: monospace;
+    color: orchid;
+  }
+  .tab-content {
+    border-radius: 20px;
+    color: black;
+    padding: 20px;
+  }
+  #pills-tab {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffb366;
+  }
