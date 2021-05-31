@@ -9,9 +9,6 @@ body {
 }
 #content {
   background-color: #ff7c4d;
-  color: white;
-  
-  background-size: cover;
 }
 .logo {
   width: 50%;
@@ -20,7 +17,7 @@ body {
 }
 
  #body {
-   background-color: #ff7c4d;
+  
  }
  @media only screen and (max-width: 600px) {
    .logo {
@@ -42,4 +39,7 @@ body {
    width: 8%;
    height: 8%;
    
+ }
+ .text {
+   font-family:  'Brush Script MT', cursive;
  }
