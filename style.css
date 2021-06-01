@@ -67,6 +67,7 @@ body {
  #pills-profile {
    border-radius: 20px;
    padding: 20px;
+   
  }
   @media only screen and (max-width: 600px) {
     #border {
@@ -77,6 +78,7 @@ body {
       color: white;
       padding: 20px;
     }
+ 
   }
   code {
     font-family: monospace;
@@ -93,4 +95,4 @@ body {
     border-radius: 10px;
     background-color: #ffb366;
   }
-  
+ 
